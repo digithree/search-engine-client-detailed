@@ -35,7 +35,6 @@
 	"scripts": {
 		"test": "cross-env HEADLESS=0 DEBUG=mocha:*,nightmare:actions*,autokent:* mocha --recursive --slow 30000",
 		"mochatest": "cross-env HEADLESS=0 DEBUG=mocha:*,nightmare:actions*,autokent:* mocha mochatest/mocha-test.js --slow 30000"
-
 	},
 	"homepage": "https://gitlab.com/autokent/search-engine-client",
 	"bugs": {

@@ -2,6 +2,8 @@
 
 **A nodejs module to extract links from Google, Bing etc..**
 
+This original project is [search-engine-client](https://gitlab.com/autokent/search-engine-client)
+
 [![version](https://img.shields.io/npm/v/search-engine-client.svg)](https://www.npmjs.org/package/search-engine-client)
 [![downloads](https://img.shields.io/npm/dt/search-engine-client.svg)](https://www.npmjs.org/package/search-engine-client)
 [![node](https://img.shields.io/node/v/search-engine-client.svg)](https://nodejs.org/)
@@ -158,10 +160,6 @@ Wait after search(ms).
 * `mocha` or `npm test`
 * Check [test folder](https://gitlab.com/autokent/search-engine-client/tree/master/test) and [quickstart.js](https://gitlab.com/autokent/search-engine-client/blob/master/quickstart.js) for extra usages.
 
-## Support
-I use this package actively myself, so it has my top priority. You can chat on WhatsApp about any infos, ideas and suggestions.
-
-[![WhatsApp](https://img.shields.io/badge/style-chat-green.svg?style=flat&label=whatsapp)](https://api.whatsapp.com/send?phone=905063042480&text=Hi%2C%0ALet%27s%20talk%20about%20search-engine-client)
 
 ### Submitting an Issue
 If you find a bug or a mistake, you can help by submitting an issue to [GitLab Repository](https://gitlab.com/autokent/search-engine-client/issues)
