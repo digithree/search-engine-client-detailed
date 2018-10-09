@@ -1,6 +1,6 @@
 {
-	"name": "search-engine-client",
-	"version": "1.2.6",
+	"name": "search-engine-client2",
+	"version": "1.0.0",
 	"description": "A nodejs module to extract links from Google, Bing etc..",
 	"main": "index.js",
 	"keywords": [
@@ -20,7 +20,11 @@
 		"bing",
 		"duckduckgo",
 		"google",
-		"yahoo"
+		"yahoo",
+        "dogpile",
+        "exalead",
+        "netcraft",
+        "crt.sh"
 	],
 	"dependencies": {
 		"nightmare": "^2.10.0",
@@ -36,16 +40,16 @@
 		"test": "cross-env HEADLESS=0 DEBUG=mocha:*,nightmare:actions*,autokent:* mocha --recursive --slow 30000",
 		"mochatest": "cross-env HEADLESS=0 DEBUG=mocha:*,nightmare:actions*,autokent:* mocha mochatest/mocha-test.js --slow 30000"
 	},
-	"homepage": "https://gitlab.com/autokent/search-engine-client",
+	"homepage": "https://github.com/vladwelt/search-engine-client",
 	"bugs": {
-		"url": "https://gitlab.com/autokent/search-engine-client/issues",
-		"email": "mehmet.kozan@live.com"
+		"url": "https://github.com/vladwelt/search-engine-client/issues",
+		"email": "vladwelt@gmail.com"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://gitlab.com/autokent/search-engine-client.git"
+		"url": "https://github.com/vladwelt/search-engine-client.git"
 	},
-	"author": "Mehmet Kozan <mehmet.kozan@live.com>",
+	"author": "Vlady Cespedes <vladwelt@gmail.com>",
 	"license": "MIT",
 	"engines": {
 		"node": ">=6.8.1"
