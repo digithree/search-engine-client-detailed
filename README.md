@@ -4,11 +4,6 @@
 
 This original project is [search-engine-client](https://gitlab.com/autokent/search-engine-client)
 
-[![version](https://img.shields.io/npm/v/search-engine-client.svg)](https://www.npmjs.org/package/search-engine-client)
-[![downloads](https://img.shields.io/npm/dt/search-engine-client.svg)](https://www.npmjs.org/package/search-engine-client)
-[![node](https://img.shields.io/node/v/search-engine-client.svg)](https://nodejs.org/)
-[![status](https://gitlab.com/autokent/search-engine-client/badges/master/pipeline.svg)](https://gitlab.com/autokent/search-engine-client/pipelines)
-
 ## Installation
 `npm install search-engine-client`
 
@@ -109,9 +104,6 @@ sec.aol("text to search",options).then(function(result){
 });
 ```
 
-### offset (number)
-Offset to skip links, not implemented check the [issue.](https://gitlab.com/autokent/search-engine-client/issues/1)
-
 ### agent (string)
 The User-Agent request header.
 
@@ -158,18 +150,14 @@ Wait after search(ms).
 
 ## Test
 * `mocha` or `npm test`
-* Check [test folder](https://gitlab.com/autokent/search-engine-client/tree/master/test) and [quickstart.js](https://gitlab.com/autokent/search-engine-client/blob/master/quickstart.js) for extra usages.
+* Check [test folder](https://github.com/vladwelt/search-engine-client/tree/master/test) and [quickstart.js](https://github.com/vladwelt/search-engine-client/blob/master/quickstart.js) for extra usages.
 
 
 ### Submitting an Issue
-If you find a bug or a mistake, you can help by submitting an issue to [GitLab Repository](https://gitlab.com/autokent/search-engine-client/issues)
+If you find a bug or a mistake, you can help by submitting an issue to [Github Repository](https://github.com/vladwelt/search-engine-client/issues)
 
-### Creating a Merge Request
-GitLab calls it merge request instead of pull request.  
-
-* [A Guide for First-Timers](https://about.gitlab.com/2016/06/16/fearless-contribution-a-guide-for-first-timers/)
-* [How to create a merge request](https://docs.gitlab.com/ee/gitlab-basics/add-merge-request.html)
-* Check [Contributing Guide](https://gitlab.com/autokent/search-engine-client/blob/master/CONTRIBUTING.md) 
+### Creating a Pull Request
+Feel free to create a pull request
 
 ## License
-[MIT licensed](https://gitlab.com/autokent/search-engine-client/blob/master/LICENSE) and all it's dependencies are MIT or BSD licensed.
+[MIT licensed](https://github.com/vladwelt/search-engine-client/blob/master/LICENSE) and all it's dependencies are MIT or BSD licensed.
